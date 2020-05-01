@@ -17,4 +17,4 @@ cd $WEB_DIR
 
 git add --all
 git commit -m "added new files"
-git push -u orign master
+git push -u origin master
