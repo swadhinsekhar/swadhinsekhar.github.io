@@ -7,7 +7,19 @@
     }
 }
 
+.linebreakTop {
+    border: none;
+    border-top: 2px solid black; /* Adjust the thickness and color as needed */
+}
+
+
 @media (prefers-color-scheme: dark) {
+	h1 {
+        font-weight: bold;
+		color: rgb(14, 7, 7); /* Blue color in dark mode */
+        margin-top: 10px !important;
+        margin-bottom: 5px !important;
+    }
 	h2 {
         font-weight: bold;
 		color: rgb(14, 7, 7); /* Blue color in dark mode */
@@ -46,6 +58,15 @@
         border-radius: 5px;
         margin-top: 5px;
         margin-bottom: 20px;
+    }
 
+    span.contact-info {
+        display: flex;
+        justify-content: flex-start;
+        gap: 7px;
+        align-items: center;
+        margin-top: 7px;
+        /* Adjust this value as needed */
+        color: #666666;
     }
 }
