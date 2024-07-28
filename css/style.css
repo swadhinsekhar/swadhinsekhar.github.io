@@ -1,7 +1,7 @@
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     h1 {
-        color: red;
+        color: beige;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -48,8 +48,8 @@
     }
 
     hr.linebreakTop {
-        border: 1px solid rgb(40, 38, 38);
-        /*border-top: 1px solid rgb(52, 49, 49);*/
+        /*border: 1px solid rgb(40, 38, 38);*/
+        border-top: 1px solid rgb(52, 49, 49);
         border-bottom: none;
         border-right: none;
         border-left: none;
@@ -62,11 +62,24 @@
 
     span.contact-info {
         display: flex;
+        flex-wrap: wrap;
         justify-content: flex-start;
         gap: 7px;
         align-items: center;
         margin-top: 7px;
         /* Adjust this value as needed */
-        color: #666666;
+        color: #1a1919;
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    span.contact-info {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start;
+    }
+
+    span.contact-info a {
+        margin-bottom: 5px; /* Add space between links */
     }
 }
