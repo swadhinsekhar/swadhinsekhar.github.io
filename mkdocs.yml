@@ -4,6 +4,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - header.autohide
     - navigation.sections
     - toc.integrate
     - navigation.top

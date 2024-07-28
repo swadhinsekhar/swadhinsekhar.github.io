@@ -3,12 +3,13 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-<span style="color: #666666;">
-  **Mob:** +91 9066987460 &nbsp;|&nbsp; 
-  **Email:** <a href="mailto:swadhinsekhar05@gmail.com">swadhinsekhar05@gmail.com</a> &nbsp;|&nbsp; 
-  **GitHub:** <a href="https://github.com/swadhinsekhar">/swadhinsekhar</a>
-  **LinkedIn:** <a href="https://www.linkedin.com/in/swadhinsekhar/">/swadhinsekhar</a>
+<span style="color: #666666;" class="contact-info">
+      **Mob:** +91-9066987460 &nbsp;|&nbsp;
+      **Email:** <a href="mailto:swadhinsekhar05@gmail.com" target="_blank">swadhinsekhar05@gmail.com</a> &nbsp;|&nbsp;
+      **GitHub:** <a href="https://github.com/swadhinsekhar" target="_blank">/swadhinsekhar</a> &nbsp;|&nbsp;
+      **LinkedIn:** <a href="https://www.linkedin.com/in/swadhinsekhar/" target="_blank">/swadhinsekhar</a>
 </span>
+
 <hr class="linebreakTop">
 
 ## Technical Skills
