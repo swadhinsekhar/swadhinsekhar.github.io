@@ -4,10 +4,11 @@
 <link rel="stylesheet" href="css/style.css">
 
 <span style="color: #666666;" class="contact-info">
-      **Mob:** +91-9066987460 &nbsp;|&nbsp;
-      **Email:** <a href="mailto:swadhinsekhar05@gmail.com" target="_blank">swadhinsekhar05@gmail.com</a> &nbsp;|&nbsp;
-      **GitHub:** <a href="https://github.com/swadhinsekhar" target="_blank">/swadhinsekhar</a> &nbsp;|&nbsp;
-      **LinkedIn:** <a href="https://www.linkedin.com/in/swadhinsekhar/" target="_blank">/swadhinsekhar</a>
+      :fontawesome-solid-location-pin: Bengaluru, India &nbsp;|&nbsp;
+      :fontawesome-solid-mobile: +91-9066987460 &nbsp;|&nbsp;
+      :material-email-fast: <a href="mailto:swadhinsekhar05@gmail.com" target="_blank">swadhinsekhar05@gmail.com</a> &nbsp;|&nbsp;
+      :fontawesome-brands-github: <a href="https://github.com/swadhinsekhar" target="_blank">/swadhinsekhar</a> &nbsp;|&nbsp;
+      :fontawesome-brands-linkedin: <a href="https://www.linkedin.com/in/swadhinsekhar/" target="_blank">/swadhinsekhar</a>
 </span>
 
 <hr class="linebreakTop">
