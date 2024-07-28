@@ -69,6 +69,8 @@
         margin-top: 7px;
         /* Adjust this value as needed */
         color: #1a1919;
+        font-size: 14px; /* Reduce the font size */
+        font
     }
 }
 
@@ -82,4 +84,11 @@
     span.contact-info a {
         margin-bottom: 5px; /* Add space between links */
     }
+}
+
+.youtube {
+    color: #311e1e;
+}
+.github {
+    color: #EE0F0F;
 }
