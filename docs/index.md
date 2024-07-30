@@ -32,7 +32,19 @@
 
 <hr class="linebreak">
 
-**Cambium Networks** - Sr Engineer (Nov 2021 - March 2024)
+<span class="job-title">
+ Cambium Networks :
+ <span class="position">Staff Engineer </span>
+ <span class="date">March 2024 - Continue.</span>
+</span>
+
+- Enhancing device classification.
+
+<span class="job-title">
+ Cambium Networks :
+ <span class="position">Sr. Engineer </span>
+ <span class="date">Nov 2021 - March 2024</span>
+</span>
 
 - Developed microservice applications to manage REST API calls from the Subscriber Mobile App.
 - Designed REST API endpoints and JSON schemas for requests and responses.
@@ -51,7 +63,11 @@
 - Developed a stats-collector agent in Golang responsible for collecting data from APs and seamlessly transmitting it to the Grafana server, enabling real-time monitoring and data-driven insights.
 - Successfully containerized the ELK Stack, Grafana, and syslog-ng server, streamlining deployment and enhancing system scalability.
 
-**Lavelle Networks** - Senior Software Engineer - III (Sept 2020 - Nov 2021)
+<span class="job-title">
+ Lavelle Networks:
+ <span class="position">Software Engineer - III </span>
+ <span class="date">Sept 2020 - Nov 2021</span>
+</span>
 
 - Fault Visibility & TCA(Threshold Crossing Alerts) implemented in the Product.
 - Integrated the fault events generation in various SD-WAN components such as (Dataplane, Control Plane, DPI Engine, Security Engine).
@@ -65,7 +81,11 @@
 - Used hashmap db for DNS Answer headers.
 - Handle the json configuration pull in Control Plane (python) from Cloud and store in the appropriate directory. 
 
-**Etrance Networks (Client Lavelle Networks)** - Software Engineer (Aug 2018 - Sept 2020)
+<span class="job-title">
+ Etrance Networks (client Lavelle Networks):
+ <span class="position">Software Engineer</span>
+ <span class="date">Aug 2018 - Sept 2020</span>
+</span>
 
 - Active-Active HA
 - Did UT on its entire feature and handle all the bugs raised during the QA phase.
@@ -81,7 +101,11 @@
 - Developed software which will manage all kinds of USB Based 4G devices. 
 - Written Modem Driver for mini-pci based devices.
 
-**Etrance Networks (Client TATA Power SED)** - Software Engineer (Dec 2015 - Aug 2018)
+<span class="job-title">
+ Etrance Networks (client TATA Power SED):
+ <span class="position">Software Engineer</span>
+ <span class="date">Dec 2015 - Aug 2018</span>
+</span>
 
 - Video Conference Bridge
 - Developed Video Conference software using Gstreamer
@@ -94,14 +118,22 @@
 - Developed SIP Client software for Client Customized Hardware.
 - Written various drivers & firmware for embedded components used in the device. 
 
-**Etrance Networks** - R & D Engineer (Sept 2015 – Dec 2015)
+<span class="job-title">
+ Etrance Networks:
+ <span class="position">R & D Engineer</span>
+ <span class="date">Sept 2015 - Dec 2015</span>
+</span>
 
 - Users Authentication over wifi router
 - Integrated the Splash software (nodogsplash from openwrt) in TP Link Router.
 - Developed the Cloud Server to manage distributed routers.
 - Integrated google analytics in the platform.
 
-**Etrance Networks** - Internship (May 2015 - Sept 2015)
+<span class="job-title">
+ Etrance Networks:
+ <span class="position">Internship </span>
+ <span class="date">May 2015 - Sept 2015</span>
+</span>
 
 - Smart Landline Calls over wifi - IOT
 - Developed an embedded device which will convert BSNL landline calls to Home Wifi network and be received in android mobile phone.
