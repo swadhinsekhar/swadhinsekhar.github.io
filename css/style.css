@@ -86,6 +86,29 @@
     }
 }
 
+/* Add this CSS to your stylesheet */
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.job-title .position {
+    font-size: 1em;
+    color: #666666;
+    font-weight: normal;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.job-title .date {
+    font-size: 1em;
+    color: #666666;
+    font-weight: normal;
+    margin-left: auto;
+}
+
 .youtube {
     color: #311e1e;
 }
