@@ -1,0 +1,14 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Content and Styling Best Practices
+
+- Use YAML frontmatter in markdown files for metadata (e.g., name, title, contact info).
+- Organize content into clear sections: Summary, Experience, Education, Skills, Projects, Contact.
+- Use proper headings (##, ###) and bullet points for clarity and readability.
+- Write concise, impactful, and professional language throughout.
+- Maintain consistent formatting and spacing.
+- See [docs/index.md](mdc:docs/index.md) for the main structure and style example.
+- Avoid unnecessary visual clutter and blog-like narrative unless required for a specific section.

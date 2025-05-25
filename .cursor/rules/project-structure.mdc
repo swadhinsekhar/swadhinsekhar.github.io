@@ -1,0 +1,14 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Project Structure Guide
+
+The main configuration file is [mkdocs.yml](mdc:mkdocs.yml), which defines the site structure, theme, and plugins.
+
+Resume content is located in [docs/index.md](mdc:docs/index.md), structured into sections such as Summary, Experience, Education, Skills, Projects, and Contact. Each section should use proper headings and concise bullet points.
+
+Custom styles are defined in [docs/css/style.css](mdc:docs/css/style.css) to ensure a clean, modern, and resume-appropriate appearance.
+
+All content and configuration should prioritize clarity, professionalism, and mobile responsiveness. Avoid blog-like or portfolio-style layouts unless explicitly required.

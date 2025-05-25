@@ -1,0 +1,18 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Workflow and Contribution Rules
+
+- All changes must be made via pull requests (PRs).
+- Each PR should address a single feature, fix, or improvement.
+- Write clear, descriptive commit messages.
+- Reference related tasks from [task.md](mdc:task.md) in PR descriptions.
+- Reviewers should check for:
+  - Resume-focused design and content
+  - Professional and technical language
+  - Consistency with project structure and style
+  - Accessibility and mobile responsiveness
+- Approve PRs only if all criteria are met.
+- Major content or configuration changes should be discussed in an issue before PR.

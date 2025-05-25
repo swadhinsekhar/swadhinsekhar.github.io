@@ -1,0 +1,302 @@
+/* Modern Resume CSS */
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    background: #fff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #1a237e;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-top: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Contact info styling */
+.contact-info {
+    margin: 1.5em 0 2em 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em 3em;
+    font-size: 1.1em;
+    align-items: center;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.contact-info a {
+    color: #1565c0;
+    text-decoration: none;
+}
+.contact-info a:hover, .contact-info a:focus {
+    color: #0d47a1;
+    background: #e3f2fd;
+}
+.contact-info i {
+    margin-right: 0.4em;
+    color: #444;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+    body {
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    .resume-contact {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-info {
+        flex-direction: column;
+        gap: 0.7em;
+        align-items: flex-start;
+    }
+}
+
+/* Accessibility: high contrast for links */
+a {
+    color: #1565c0;
+    text-decoration: underline;
+}
+a:focus, a:hover {
+    color: #0d47a1;
+    background: #e3f2fd;
+}
+
+/* Section separation */
+hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+    margin: 2em 0;
+}
+
+@media (prefers-color-scheme: light) {
+    h1 {
+        color: beige;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.linebreakTop {
+    border: none;
+    border-top: 2px solid black; /* Adjust the thickness and color as needed */
+}
+
+
+@media (prefers-color-scheme: dark) {
+	h1 {
+        font-weight: bold;
+		color: rgb(14, 7, 7); /* Blue color in dark mode */
+        margin-top: 10px !important;
+        margin-bottom: 5px !important;
+    }
+	h2 {
+        font-weight: bold;
+		color: rgb(14, 7, 7); /* Blue color in dark mode */
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    ul {
+        margin-top: 5px;
+    }
+    hr {
+        border: 1px solid black; /* White horizontal line in dark mode */
+    }
+    /* Thick black border */
+    hr.linebreak {
+        border: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        margin: 10px 0;
+        max-width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    hr.linebreakTop {
+        /*border: 1px solid rgb(40, 38, 38);*/
+        border-top: 1px solid rgb(52, 49, 49);
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        margin: 10px 0;
+        max-width: 100%;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    /* Removed old span.contact-info block, now using .contact-info above */
+}
+
+/* Media query for smaller screens now handled in .contact-info above */
+
+/* Add this CSS to your stylesheet */
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.job-title .position {
+    font-size: 1em;
+    color: #666666;
+    font-weight: normal;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.job-title .date {
+    font-size: 1em;
+    color: #666666;
+    font-weight: normal;
+    margin-left: auto;
+}
+
+.job-title .company {
+    color: #1a237e;
+    font-weight: bold;
+    font-size: 1.08em;
+    letter-spacing: 0.5px;
+}
+
+.youtube {
+    color: #311e1e;
+}
+.github {
+    color: #EE0F0F;
+}
+
+.contact-info-bar {
+  display: block;
+  margin: 1.5em 0 2em 0;
+  font-size: 1.1em;
+  color: #444;
+  letter-spacing: 0.02em;
+  word-spacing: 0.2em;
+  line-height: 2;
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+  border: 1px solid #e0e0e0;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+}
+.contact-info-bar a {
+  color: #1565c0;
+  text-decoration: none;
+  font-weight: 500;
+}
+.contact-info-bar a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+.skills-list {
+  margin: 0 0 1.2em 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 0.2em;
+  column-gap: 1.2em;
+  font-size: 1.05em;
+  line-height: 1.3;
+}
+.skills-list dt {
+  font-weight: bold;
+  color: #1a237e;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.skills-list dd {
+  margin: 0 0 0.2em 0;
+  padding: 0;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  margin: 0 0 1.2em 0;
+  padding: 0;
+}
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #f9f9f9;
+  /* border-left: 3px solid #1a237e; */
+  border-radius: 6px;
+  padding: 0.7em 1em;
+}
+.degree {
+  font-weight: bold;
+  color: #1a237e;
+  font-size: 1.07em;
+}
+.school {
+  color: #333;
+  font-size: 1em;
+}
+.edu-date {
+  color: #666;
+  font-size: 0.98em;
+  font-weight: 500;
+  min-width: 110px;
+  text-align: right;
+  margin-left: 2em;
+}
