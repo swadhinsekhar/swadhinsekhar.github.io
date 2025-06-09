@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://swadhinsekhar.github.io/</loc>
-         <lastmod>2024-07-30</lastmod>
+         <lastmod>2025-06-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://swadhinsekhar.github.io/technical-contents/ipsec-demo/</loc>
+         <lastmod>2025-06-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://swadhinsekhar.github.io/technical-contents/lldp/</loc>
+         <lastmod>2025-06-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://swadhinsekhar.github.io/technical-contents/overview/</loc>
+         <lastmod>2025-06-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
