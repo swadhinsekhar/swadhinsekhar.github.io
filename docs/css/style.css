@@ -300,3 +300,78 @@ hr {
   text-align: right;
   margin-left: 2em;
 }
+
+/* Enhance MkDocs Material header tabs
+.md-tabs__link,
+.md-tabs__link:visited {
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  color: #fff !important;
+  padding: 0.4rem 1.2rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link:focus,
+.md-tabs__link--active {
+  color: #ffd600 !important;
+  background: rgba(255,255,255,0.10) !important;
+}
+ */
+/* ===================== */
+/* Enhanced Header Tabs  */
+/* ===================== */
+
+/* Base tab styling */
+.md-tabs__link {
+    font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+    font-weight: 600; /* Slightly lighter than 700 for better readability */
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9) !important;
+    padding: 0.9rem 0.1rem;
+    margin: 0 0.2rem;
+    border-radius: 4px 4px 0 0;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.9;
+  }
+  
+  /* Active tab styling */
+  .md-tabs__link--active {
+    color: #ffd600 !important;
+    background: rgba(255, 214, 0, 0.1) !important;
+    opacity: 1;
+    position: relative;
+  }
+  
+  /* Add subtle underline to active tab */
+  .md-tabs__link--active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #ffd600;
+    border-radius: 3px 3px 0 0;
+  }
+  
+  /* Hover and focus states */
+  .md-tabs__link:hover,
+  .md-tabs__link:focus {
+    color: #ffd600 !important;
+    background: rgba(255, 214, 0, 0.05) !important;
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 76.1875em) {
+    .md-tabs__link {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+    }
+  }

@@ -43,4 +43,10 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a href="https://github.com/swadhinsekhar"  target="_blank" rel="noopener">Swadhin Sekhar</a>
+  &copy; 2025 <a href="https://github.com/swadhinsekhar"  target="_blank" rel="noopener">Swadhin Sekhar</a>
+
+nav:
+  - Resume: index.md
+  - Technical Contents:
+      - Overview: technical-contents/overview.md
+      - IPSec Demonstration : technical-contents/ipsec-demo.md

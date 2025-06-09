@@ -10,13 +10,15 @@
 <hr class="linebreak">
 
 <dl class="skills-list">
-  <dt>Programming Language</dt><dd>Golang & C</dd>
-  <dt>Networking Protocols</dt><dd>DNS, DHCP, TCP/IP, SD-WAN/SDN</dd>
-  <dt>Libraries/Framework</dt><dd>Gorilla-mux, websockets, RestAPI</dd>
-  <dt>Tools</dt><dd>Git, Jira, Confluence, Swagger</dd>
-  <dt>Technical</dt><dd>Linux, Docker</dd>
-  <dt>Cloud</dt><dd>AWS</dd>
+  <dt>Programming Languages</dt><dd>C & Golang</dd>
+  <dt>Networking Protocols</dt><dd>DNS, DHCP, TCP/IP, SD-WAN/SDN, TLS (JA3/JA3S), mDNS/SSDP</dd>
+  <dt>Security</dt><dd>PKI, Certificate Validation, eBPF, Device Fingerprinting</dd>
+  <dt>Libraries/Frameworks</dt><dd>Gorilla-mux, websockets, REST API, gRPC, scikit-learn, pandas, redis-py-cluster</dd>
+  <dt>Tools</dt><dd>Git, Jira, Confluence, Swagger, OpenSSL, Wireshark</dd>
+  <dt>DevOps/Infra</dt><dd>Linux, Docker, Jenkins CI/CD, AWS (Lambda, ECR, S3, ElastiCache, API Gateway)</dd>
+  <dt>Data Formats</dt><dd>JSON, YAML</dd>
 </dl>
+
 
 ## Professional Experience
 
@@ -28,7 +30,21 @@
   <span class="date">March 2024 - Continue.</span>
 </span>
 
-- Enhancing device classification.
+- Cloud Agent Security Enhancement
+	- Fixed critical certificate validation issue in C-based cloud agent using OpenSSL 3.3.1
+	- Enhanced ssl_cert_verify_callback to properly handle 3-tier AWS certificate chain (root/intermediate/leaf CA)
+	- Implemented comprehensive certificate chain verification, strict hostname validation against CN, and graceful handling of not-yet-valid certificates
+	- **Impact:** Resolved intermediate CA validation failures while strengthening security checks
+	- **Skills:** C, OpenSSL, PKI, Certificate Validation, Security Hardening
+
+- Endpoint Device Classification System
+	- Developed a Golang-based solution to classify endpoint devices by analyzing network attributes including MAC addresses, DHCP fingerprints, TCP/IP stack, TLS (JA3/JA3S), HTTP headers, DNS OS Update lits, and mDNS/SSDP data.
+	- Created structured JSON profiles for each device (keyed by MAC address) by aggregating multiple fingerprinting techniques. 
+	- Integrated with cloud REST API to enrich device profiles with manufacturer/model information.
+	- Implemented using eBPF for efficient and scalable network data collection and processing.
+	- **Impact:** Enhanced network visibility and device identification accuracy for security monitoring.
+	- **Skills:** Golang, eBPF, Network Fingerprinting, REST APIs, JSON Data Modeling.
+
 
 <span class="job-title">
   <span class="company">Cambium Networks</span> :
